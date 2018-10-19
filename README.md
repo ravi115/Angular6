@@ -24,6 +24,7 @@ This tutorials explains the angular 6  applications.
 - The actual code will be written in **src/app** directory.
 - So the src/app will have four files basically known as component files which angular generates.
 - The component files are of five types.
+          
           1. app.component.html
                     - here all the html codes will be written.
           2. app.component.css
@@ -58,6 +59,21 @@ This tutorials explains the angular 6  applications.
 - We will create folder inside it based on our webpages requirement and write the code.
 - To Run a angular project locally just use below commanad
 
-            - ng server
+            - ng serve
                     or
             - npm start
+
+**To create a new component**
+
+                    ng generate component <componenetName>
+                              or
+                    ng g c <componentName>
+- This will create a four files as below.
+          
+          1. <componentName>.component.html
+          2. <componentName>.component.css
+          3. <componentName>.component.spec.ts
+          4. <componentName>.component.ts
+          
+
+
