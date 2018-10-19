@@ -76,4 +76,9 @@ This tutorials explains the angular 6  applications.
           4. <componentName>.component.ts
           
 
+- We need to either use routing concept or add the newly created component html into app.component.html page inorder to render the new component. we use to add the html kind tag in the app.compoenent.html file as below.
+
+                    <app-<componentName></app-<componentName>
+
+                   
 
